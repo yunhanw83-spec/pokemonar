@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Pokémon AR</title>
+  </head>
+  <body>
+    <script src="code.js"></script>
+    <script>
+      PokemonAR.init({
+        lang: "en",
+        maxCache: 6,
+
+        pokemon: [
+          {
+            name: { en: "BULBASAUR", zh_tw: "妙蛙怪", zh_cn: "妙蛙种子" },
+            dex: "#001",
+            type: { en: "GRASS / POISON", zh_tw: "草苗 / 毒藥", zh_cn: "草地 / 毒药" },
+            color: "#4CAF50",
+            model:
+              "https://digimarketingai.github.io/pokemon3d/bulbasaur_s.glb",
+          },
+          {
+            name: { en: "CHARMANDER", zh_tw: "小火龍", zh_cn: "查曼德" },
+            dex: "#004",
+            type: { en: "FIRE", zh_tw: "解僱", zh_cn: "火熱" },
+            color: "#FF5722",
+            model:
+              "https://digimarketingai.github.io/pokemon3d/charmander_s.glb",
+          },
+          {
+            name: { en: "SQUIRTLE", zh_tw: "傑尼怪", zh_cn: "杰尼龟" },
+            dex: "#007",
+            type: { en: "WATER", zh_tw: "水", zh_cn: "浇水" },
+            color: "#2196F3",
+            model: "https://digimarketingai.github.io/pokemon3d/squirtle_s.glb",
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
