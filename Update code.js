@@ -68,7 +68,7 @@
     },
     appeared: {
       en: "✨ Wild {n} appeared!",
-      zh_tw: "✨ 狂野的 {名} 出現了！",
+      zh_tw: "✨ 野生的 {名} 出現了！",
       zh_cn: "✨ 野生的 {n} 出现了！",
     },
     loading_name: {
@@ -85,8 +85,8 @@
     spin_off: { en: "Spin OFF", zh_tw: "旋轉 關", zh_cn: "旋转 关" },
     loading_title: {
       en: "Loading Pokémon AR…",
-      zh_tw: "正在載入 口袋妖怪 AR…",
-      zh_cn: "正在加载 口袋妖怪 AR…",
+      zh_tw: "正在載入 精靈寶可夢 AR…",
+      zh_cn: "正在加载 Pokemon AR…",
     },
     requesting_camera: {
       en: "Requesting camera…",
@@ -123,7 +123,7 @@
       zh_tw: "",
       zh_cn: "",
     },
-    photo_save: { en: "💾 Save", zh_tw: "💾 拯救", zh_cn: "💾 保存" },
+    photo_save: { en: "💾 Save", zh_tw: "💾 保存", zh_cn: "💾 保存" },
     photo_share: { en: "📤 Share", zh_tw: "📤 分享", zh_cn: "📤 分享" },
     photo_close: { en: "✕ Close", zh_tw: "✕ 關閉", zh_cn: "✕ 关闭" },
     photo_retake: { en: "🔄 Retake", zh_tw: "🔄 重拍", zh_cn: "🔄 重拍" },
